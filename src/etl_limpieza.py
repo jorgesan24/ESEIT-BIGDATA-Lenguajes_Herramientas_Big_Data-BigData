@@ -39,6 +39,9 @@ def get_summary(data):
 
         data = data.fillna({'UNIDAD': 'SIN_DATO'})
 
+        col = 'FECHA_INICIO_DESPLAZAMIENTO_MOVIL'
+        data[col] = pd.to_datetime(data[col], errors='coerce')
+
         df_resumen = data
 
         return df_resumen
