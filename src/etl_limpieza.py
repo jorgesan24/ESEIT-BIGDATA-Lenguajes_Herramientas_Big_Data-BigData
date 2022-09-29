@@ -3,11 +3,11 @@
 #2. realizar limpieza
 #3. guardar nuevo archivo en formato .csv
 
-from fileinput import filename
-from pkgutil import get_data
 import pandas as pd
 import os
+import numpy as np
 from pathlib import Path
+from dateutil.parser import parse
 
 def main():
 
@@ -41,6 +41,29 @@ def get_summary(data):
 
         col = 'FECHA_INICIO_DESPLAZAMIENTO_MOVIL'
         data[col] = pd.to_datetime(data[col], errors='coerce')
+            
+        data['RECEPCION'] = pd.to_datetime(data['RECEPCION'], errors='coerce')
+
+        data['EDAD'] = data['EDAD'].replace({'SIN_DATO' : np.nan})
+
+        f = lambda x: x if pd.isna(x) == True else int(x)
+        data['EDAD'] = data['EDAD'].apply(f)
+
+        df = pd.DataFrame(data,columns=['CODIGO_LOCALIDAD','LOCALIDAD'])
+
+        df.loc[df['CODIGO_LOCALIDAD']==1,'LOCALIDAD']='Usaquen'
+        df.loc[df['CODIGO_LOCALIDAD']==2,'LOCALIDAD']='Chapinero'
+        df.loc[df['CODIGO_LOCALIDAD']==3,'LOCALIDAD']='Santa Fe'
+        df.loc[df['CODIGO_LOCALIDAD']==4,'LOCALIDAD']='San Cristobal'
+        df.loc[df['CODIGO_LOCALIDAD']==5,'LOCALIDAD']='Usme'
+        df.loc[df['CODIGO_LOCALIDAD']==6,'LOCALIDAD']='Tunjuelito'
+        df.loc[df['CODIGO_LOCALIDAD']==9,'LOCALIDAD']='Fontibon'
+        df.loc[df['CODIGO_LOCALIDAD']==10,'LOCALIDAD']='Engativa'
+        df.loc[df['CODIGO_LOCALIDAD']==14,'LOCALIDAD']='Los Martires'
+        df.loc[df['CODIGO_LOCALIDAD']==15,'LOCALIDAD']='Antonio Nariño'
+        df.loc[df['CODIGO_LOCALIDAD']==19,'LOCALIDAD']='Ciudad Bolivar'
+
+        data['LOCALIDAD'] = df['LOCALIDAD']
 
         df_resumen = data
 
