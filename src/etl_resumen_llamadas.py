@@ -9,6 +9,9 @@ import pandas as pd
 import os
 from pathlib import Path
 
+#root_dir = Path(".").reolve()
+root_dir = 'gs://jsanchez_bucket_llamadas123'
+
 def main():
 
     filename  = "llamadas123_julio_2022.csv"
@@ -23,11 +26,15 @@ def save_data(df, filename):
     #Guardar la tabla
 
     out_name = 'resumen_' + filename
-    root_dir = Path(".").resolve()
+    #root_dir = Path(".").resolve()
     out_path = os.path.join(root_dir, 'data', 'processed', out_name)
     #print(out_path)
 
     df.to_csv(out_path)
+    
+    print('Guardando en BQ')
+    #Guardar la tabla en BigQuery
+    df.to_gbq(destination_table = 'EspBigData.llamadas_123', )
 
 def get_summary(data):
     # Craer unn diccionario vacio
@@ -42,15 +49,19 @@ def get_summary(data):
         df_resumen = pd.DataFrame.from_dict(dict_resume, orient='index')
         df_resumen.rename({0: 'Count'}, axis=1, inplace=True)
         
+        print('get_summary')
+        print(df_resumen.head())
+        
         return df_resumen
 
 def get_data(filename):
     data_dir = "raw"
-    root_dir = Path(".").resolve()
+    #root_dir = Path(".").resolve()
     file_path = os.path.join(root_dir, "data", data_dir, filename)
 
     data = pd.read_csv(file_path, encoding='latin-1', sep=';')
-    #print(data.shape)
+    print('get_data')
+    print('La tabla contiene', data.shape[0],'filas', data.shape[1],'columnas')
     return data
 
 if __name__ == '__main__':

@@ -1,0 +1,63 @@
+2022-10-15 00:27:29,043 - get_data - INFO - [etl_limpieza.py:93] - Reading  file: gs://jsanchez_bucket_llamadas123/data/raw/datos_abiertos_abril_2022.csv
+2022-10-15 00:27:29,389 - get_data - INFO - [etl_limpieza.py:98] - La tabla contiene 12945 filas y 11 columnas
+2022-10-15 00:35:41,272 - get_data - INFO - [etl_limpieza.py:97] - Reading  file: gs://jsanchez_bucket_llamadas123/data/raw/datos_abiertos_abril_2022.csv
+2022-10-15 00:35:41,643 - get_data - INFO - [etl_limpieza.py:102] - La tabla contiene 12945 filas y 11 columnas
+2022-10-15 00:35:41,691 - save_data - INFO - [etl_limpieza.py:41] - Saving data in gs://jsanchez_bucket_llamadas123/data/processed/Etl_Limpieza_datos_abiertos_abril_2022.csv
+2022-10-15 00:46:36,350 - get_data - INFO - [etl_limpieza.py:99] - Reading  file: gs://jsanchez_bucket_llamadas123/data/raw/datos_abiertos_abril_2022.csv
+2022-10-15 00:46:36,697 - get_data - INFO - [etl_limpieza.py:104] - La tabla contiene 12945 filas y 11 columnas
+2022-10-15 00:46:36,744 - save_data - INFO - [etl_limpieza.py:41] - Saving data in gs://jsanchez_bucket_llamadas123/data/processed/Etl_Limpieza_datos_abiertos_abril_2022.csv
+2022-10-15 00:49:15,853 - get_data - INFO - [etl_limpieza.py:99] - Reading  file: gs://jsanchez_bucket_llamadas123/data/raw/datos_abiertos_abril_2022.csv
+2022-10-15 00:49:16,191 - get_data - INFO - [etl_limpieza.py:104] - La tabla contiene 12945 filas y 11 columnas
+2022-10-15 00:49:16,240 - save_data - INFO - [etl_limpieza.py:41] - Saving data in gs://jsanchez_bucket_llamadas123/data/processed/Etl_Limpieza_datos_abiertos_abril_2022.csv
+2022-10-15 00:49:16,698 - save_data - INFO - [etl_limpieza.py:47] - Saving table composite-haiku-364223.EspBigData.llamadas_123 into BigQuery
+2022-10-15 00:51:08,041 - get_data - INFO - [etl_limpieza.py:99] - Reading  file: gs://jsanchez_bucket_llamadas123/data/raw/datos_abiertos_abril_2022.csv
+2022-10-15 00:51:08,416 - get_data - INFO - [etl_limpieza.py:104] - La tabla contiene 12945 filas y 11 columnas
+2022-10-15 00:51:08,459 - save_data - INFO - [etl_limpieza.py:41] - Saving data in gs://jsanchez_bucket_llamadas123/data/processed/Etl_Limpieza_datos_abiertos_abril_2022.csv
+2022-10-15 00:51:08,931 - save_data - INFO - [etl_limpieza.py:47] - Saving table composite-haiku-364223.EspBigData.llamadas_123 into BigQuery
+2022-10-15 01:09:11,587 - get_data - INFO - [etl_limpieza.py:99] - Reading  file: gs://jsanchez_bucket_llamadas123/data/raw/datos_abiertos_abril_2022.csv
+2022-10-15 01:09:11,936 - get_data - INFO - [etl_limpieza.py:104] - La tabla contiene 12945 filas y 11 columnas
+2022-10-15 01:09:11,936 - root - INFO - [etl_limpieza.py:106] - DONE!!!
+2022-10-15 01:17:12,839 - get_data - INFO - [etl_limpieza.py:99] - Reading  file: gs://jsanchez_bucket_llamadas123/data/raw/datos_abiertos_abril_2022.csv
+2022-10-15 01:17:13,206 - get_data - INFO - [etl_limpieza.py:104] - La tabla contiene 12945 filas y 11 columnas
+2022-10-15 01:17:13,206 - root - INFO - [etl_limpieza.py:106] - DONE!!!
+2022-10-15 01:17:13,252 - save_data - INFO - [etl_limpieza.py:41] - Saving data in gs://jsanchez_bucket_llamadas123/data/processed/Etl_Limpieza_datos_abiertos_abril_2022.csv
+2022-10-15 01:17:13,731 - save_data - INFO - [etl_limpieza.py:47] - Saving table composite-haiku-364223.EspBigData.llamadas_123 into BigQuery
+2022-10-15 01:23:04,434 - get_data - INFO - [etl_limpieza.py:99] - Reading  file: gs://jsanchez_bucket_llamadas123/data/raw/datos_abiertos_abril_2022.csv
+2022-10-15 01:23:04,828 - get_data - INFO - [etl_limpieza.py:104] - La tabla contiene 12945 filas y 11 columnas
+2022-10-15 01:23:04,828 - root - INFO - [etl_limpieza.py:106] - DONE!!!
+2022-10-15 01:23:04,879 - save_data - INFO - [etl_limpieza.py:41] - Saving data in gs://jsanchez_bucket_llamadas123/data/processed/Etl_Limpieza_datos_abiertos_abril_2022.csv
+2022-10-15 01:23:05,322 - save_data - INFO - [etl_limpieza.py:47] - Saving table composite-haiku-364223.EspBigData.llamadas_123 into BigQuery
+2022-10-15 01:27:07,834 - get_data - INFO - [etl_limpieza.py:99] - Reading  file: gs://jsanchez_bucket_llamadas123/data/raw/datos_abiertos_abril_2022.csv
+2022-10-15 01:27:08,212 - get_data - INFO - [etl_limpieza.py:104] - La tabla contiene 12945 filas y 11 columnas
+2022-10-15 01:27:08,212 - root - INFO - [etl_limpieza.py:106] - DONE!!!
+2022-10-15 01:27:08,258 - save_data - INFO - [etl_limpieza.py:41] - Saving data in gs://jsanchez_bucket_llamadas123/data/processed/Etl_Limpieza_datos_abiertos_abril_2022.csv
+2022-10-15 01:27:08,704 - save_data - INFO - [etl_limpieza.py:47] - Saving table composite-haiku-364223.EspBigData.llamadas_123 into BigQuery
+2022-10-15 01:32:26,517 - get_data - INFO - [etl_limpieza.py:100] - Reading  file: gs://jsanchez_bucket_llamadas123/data/raw/llamadas123_julio_2022.csv
+2022-10-15 01:32:27,023 - get_data - INFO - [etl_limpieza.py:105] - La tabla contiene 13055 filas y 11 columnas
+2022-10-15 01:32:27,024 - root - INFO - [etl_limpieza.py:107] - DONE!!!
+2022-10-15 01:34:28,011 - get_data - INFO - [etl_limpieza.py:100] - Reading  file: gs://jsanchez_bucket_llamadas123/data/raw/llamadas123_julio_2022.csv
+2022-10-15 01:34:28,491 - get_data - INFO - [etl_limpieza.py:105] - La tabla contiene 13055 filas y 11 columnas
+2022-10-15 01:34:28,492 - root - INFO - [etl_limpieza.py:107] - DONE!!!
+2022-10-15 01:34:28,541 - save_data - INFO - [etl_limpieza.py:42] - Saving data in gs://jsanchez_bucket_llamadas123/data/processed/Etl_Limpieza_llamadas123_julio_2022.csv
+2022-10-15 01:34:29,060 - save_data - INFO - [etl_limpieza.py:48] - Saving table composite-haiku-364223.EspBigData.llamadas_123 into BigQuery
+2022-10-15 01:34:33,698 - pandas_gbq.gbq - INFO - [gbq.py:606] - 13026 out of 13026 rows loaded.
+2022-10-15 01:38:03,168 - get_data - INFO - [etl_limpieza.py:99] - Reading  file: gs://jsanchez_bucket_llamadas123/data/raw/datos_abiertos_abril_2022.csv
+2022-10-15 01:38:03,632 - get_data - INFO - [etl_limpieza.py:104] - La tabla contiene 12945 filas y 11 columnas
+2022-10-15 01:38:03,633 - root - INFO - [etl_limpieza.py:106] - DONE!!!
+2022-10-15 01:38:03,680 - save_data - INFO - [etl_limpieza.py:41] - Saving data in gs://jsanchez_bucket_llamadas123/data/processed/Etl_Limpieza_datos_abiertos_abril_2022.csv
+2022-10-15 01:38:04,138 - save_data - INFO - [etl_limpieza.py:47] - Saving table composite-haiku-364223.EspBigData.llamadas_123 into BigQuery
+2022-10-15 01:46:56,645 - get_data - INFO - [etl_limpieza.py:103] - Reading  file: gs://jsanchez_bucket_llamadas123/data/raw/datos_abiertos_abril_2022.csv
+2022-10-15 01:46:57,017 - get_data - INFO - [etl_limpieza.py:108] - La tabla contiene 12945 filas y 11 columnas
+2022-10-15 01:46:57,018 - root - INFO - [etl_limpieza.py:110] - DONE!!!
+2022-10-15 01:48:50,868 - get_data - INFO - [etl_limpieza.py:103] - Reading  file: gs://jsanchez_bucket_llamadas123/data/raw/datos_abiertos_abril_2022.csv
+2022-10-15 01:48:51,228 - get_data - INFO - [etl_limpieza.py:108] - La tabla contiene 12945 filas y 11 columnas
+2022-10-15 01:48:51,228 - root - INFO - [etl_limpieza.py:110] - DONE!!!
+2022-10-15 01:48:51,275 - save_data - INFO - [etl_limpieza.py:41] - Saving data in gs://jsanchez_bucket_llamadas123/data/processed/Etl_Limpieza_datos_abiertos_abril_2022.csv
+2022-10-15 01:48:51,773 - save_data - INFO - [etl_limpieza.py:47] - Saving table composite-haiku-364223.EspBigData.llamadas_123 into BigQuery
+2022-10-15 01:48:59,545 - pandas_gbq.gbq - INFO - [gbq.py:606] - 12878 out of 12878 rows loaded.
+2022-10-15 01:52:57,004 - get_data - INFO - [etl_limpieza.py:112] - Reading  file: gs://jsanchez_bucket_llamadas123/data/raw/datos_abiertos_abril_2022.csv
+2022-10-15 01:52:57,378 - get_data - INFO - [etl_limpieza.py:117] - La tabla contiene 12945 filas y 11 columnas
+2022-10-15 01:52:57,378 - root - INFO - [etl_limpieza.py:119] - DONE!!!
+2022-10-15 01:52:57,915 - save_data - INFO - [etl_limpieza.py:41] - Saving data in gs://jsanchez_bucket_llamadas123/data/processed/Etl_Limpieza_datos_abiertos_abril_2022.csv
+2022-10-15 01:52:58,375 - save_data - INFO - [etl_limpieza.py:47] - Saving table composite-haiku-364223.EspBigData.llamadas_123 into BigQuery
+2022-10-15 01:53:02,713 - pandas_gbq.gbq - INFO - [gbq.py:606] - 12878 out of 12878 rows loaded.
